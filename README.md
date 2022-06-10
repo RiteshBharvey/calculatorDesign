@@ -1,1 +1,1 @@
-# calculaterDesign
+# calculatorDesign
