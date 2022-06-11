@@ -40,9 +40,9 @@
         input {
             grid-column: span 4;
             height: 70px;
-            width: 260px;
+            width: 300px;
             background-color: #ecf0f3;
-            box-shadow: inset -5px -5px -12px white, inset 5px 5px 12px rgba(0, 0, 0, 0.16);
+            box-shadow: inset -5px -5px 12px white, inset 5px 5px 12px rgba(0, 0, 0, 0.16);
             border: none;
             border-radius: 30px;
             color: rgb(70, 70, 70);
@@ -115,7 +115,7 @@
         let outputScreen = document.getElementById("output-screen");
 
         function display(x) {
-            if (outputScreen.value.length < 9) {
+            if (outputScreen.value.length < 10) {
                 outputScreen.value += x;
             }
 
